@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGL LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body{
+        margin: 0;
+        padding: 0;
+        background: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        }
+        .box{
+        width: 450px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color: white;
+        font-family: 'Century Gothic',sans-serif;
+        }
+
+        @media (min-width: 1100px) {
+        .selections{
+        display: grid;
+        grid-template-columns: auto auto;
+        overflow: auto;
+        }}
+        .box li{
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+        }
+        .box li a{
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        transition: all ease-in-out 250ms;
+        }
+        .box li a:hover{
+        color: #b9b9b9;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="topbar">
+        <div class="box"><li><a href="index.html"><p>⟨ Back</p></a></li></div>
+    </ul>
+    <ul class="selections">
+        <div class="box"><li><a href="https://ngl.link/your_orly"><i class="fa-regular fa-note-sticky"></i> Message</a></li></div>
+        <div class="box"><li><a href="https://confess.ngl.link/your_orly"><i class="fa-regular fa-note-sticky"></i> Confession</a></li></div>
+        <div class="box"><li><a href="https://3words.ngl.link/your_orly"><i class="fa-regular fa-note-sticky"></i> 3 Words</a></li></div>
+        <div class="box"><li><a href="https://ngl.link/your_orly/neverhave"><i class="fa-regular fa-note-sticky"></i> Never Have I Ever</a></li></div>
+        <div class="box"><li><a href="https://confess.ngl.link/your_orly"><i class="fa-regular fa-note-sticky"></i> Confession</a></li></div>
+        <div class="box"><li><a href="https://ngl.link/your_orly/tbh"><i class="fa-regular fa-note-sticky"></i> TBH</a></li></div>
+        <div class="box"><li><a href="https://ngl.link/your_orly/shipme"><i class="fa-regular fa-note-sticky"></i> Ship Me</a></li></div>
+        <div class="box"><li><a href="https://ngl.link/your_orly/yourcrush"><i class="fa-regular fa-note-sticky"></i> Your Crush</a></li></div>
+        <div class="box"><li><a href="https://ngl.link/your_orly/cancelled"><i class="fa-regular fa-note-sticky"></i> Cancelled</a></li></div>
+        <div class="box"><li><a href="https://ngl.link/your_orly/dealbreaker"><i class="fa-regular fa-note-sticky"></i> Deal Breaker</a></li></div>
+    </ul>
+</body>
+</html>
